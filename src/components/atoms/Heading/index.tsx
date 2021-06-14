@@ -11,7 +11,7 @@ interface IProps {
   padding?: string;
 }
 
-const StyledHeading1 = styled.h2<
+const StyledHeading1 = styled.h1<
   Pick<IProps, 'color' | 'fontSize' | 'fontWeight' | 'margin' | 'padding'>
 >`
   user-select: none;
@@ -33,7 +33,7 @@ const StyledHeading2 = styled.h2<
   padding: ${({ padding }) => padding || '0'};
 `;
 
-const StyledHeading3 = styled.h2<
+const StyledHeading3 = styled.h3<
   Pick<IProps, 'color' | 'fontSize' | 'fontWeight' | 'margin' | 'padding'>
 >`
   user-select: none;
