@@ -1,11 +1,13 @@
-# react-captcha-solver-poc
+# react-captcha-solver
 
 This is an electron based capctha solver (Proof of Concept)
 
+![screenshot](https://github.com/devkim10/react-captcha-solver/blob/images/screenshot1.png)
+
 ## Install & Starting for Development
 ```
-$ git clone https://github.com/devkim10/react-captcha-solver-poc
-$ cd react-captcha-solver-poc
+$ git clone https://github.com/devkim10/react-captcha-solver
+$ cd react-captcha-solver
 $ npm install && npm run build
 ```
 
