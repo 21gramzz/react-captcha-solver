@@ -5,7 +5,7 @@ import { MinimizeWinsowButton } from '../../atoms/MinimizeWindowButton';
 import { MaximizeWinsowButton } from '../../atoms/MaximizeWindowButton';
 
 const StyledTitleBarButtons = styled.div`
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   width: 70px;
   display: flex;
   justify-content: space-between;

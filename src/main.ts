@@ -327,7 +327,7 @@ ipcMain.on(
 );
 
 ipcMain.on('maximizeWindow', () => {
-  mainWindow.setFullScreen(!mainWindow.isFullScreen());
+  // mainWindow.setFullScreen(!mainWindow.isFullScreen());
 });
 
 ipcMain.on('minimizeWindow', () => {
