@@ -31,7 +31,7 @@ const Icon = styled(FontAwesomeIcon)`
   opacity: 0.4;
 `;
 
-export const CloseWinsowButton: React.FC<IProps> = props => {
+export const CloseWindowButton: React.FC<IProps> = props => {
   return (
     <Button {...props}>
       <Icon icon="times" fixedWidth />

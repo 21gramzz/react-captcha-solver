@@ -31,7 +31,7 @@ const Icon = styled(FontAwesomeIcon)`
   opacity: 0.4;
 `;
 
-export const MaximizeWinsowButton: React.FC<IProps> = props => {
+export const MaximizeWindowButton: React.FC<IProps> = props => {
   return (
     <Button {...props}>
       <Icon icon="plus" fixedWidth />

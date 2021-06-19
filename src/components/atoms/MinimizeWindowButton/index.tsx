@@ -31,7 +31,7 @@ const Icon = styled(FontAwesomeIcon)`
   opacity: 0.4;
 `;
 
-export const MinimizeWinsowButton: React.FC<IProps> = props => {
+export const MinimizeWindowButton: React.FC<IProps> = props => {
   return (
     <Button {...props}>
       <Icon icon="minus" fixedWidth />
