@@ -1,6 +1,6 @@
 # react-captcha-solver
 
-This is an electron based capctha solver (Proof of Concept)
+This is electron based capctha solver (Proof of Concept)
 
 ![screenshot](https://github.com/devkim10/react-captcha-solver/blob/images/screenshot1.png)
 
